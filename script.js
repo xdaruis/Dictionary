@@ -1,8 +1,7 @@
 const words = new Set();
 
 function addWord() {
-    boxValue = document.getElementById('addBox').value;
-    words.add(boxValue);
+    words.add(document.getElementById('addBox').value);
 }
 
 function hasWord() {
