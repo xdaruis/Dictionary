@@ -5,8 +5,7 @@ function addWord() {
 }
 
 function hasWord() {
-    var boxValue = document.getElementById('searchBox').value;
-    if (words.has(boxValue)) {
+    if (words.has(document.getElementById('searchBox').value)) {
         alert("Word has been found!")
     } else {
         alert("Word not found!")
